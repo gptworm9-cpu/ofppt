@@ -1,0 +1,17 @@
+body { font-family: Arial, sans-serif; background: #f1f3f5; margin: 0; }
+.page { max-width: 1000px; margin: 24px auto; padding: 20px; text-align: center; }
+.logo { width: 120px; border-radius: 50%; }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.grid2 { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+.card { background: white; border-radius: 12px; padding: 16px; text-decoration: none; color: #14532d; border: 1px solid #d0d7de; }
+.card.left { text-align: left; }
+.muted { color: #777; }
+.auth-card { max-width: 560px; margin: 16px auto; background: #fff; padding: 20px; border-radius: 12px; border: 1px solid #d0d7de; }
+input, select, textarea, button { width: 100%; margin: 8px 0; padding: 10px; border-radius: 8px; border: 1px solid #bbb; box-sizing: border-box; }
+button { background: #36a853; color: white; border: none; cursor: pointer; }
+.error { color: #cc0000; font-weight: bold; }
+.success { color: #1f7a36; font-weight: bold; }
+.avatar { width: 90px; height: 90px; border-radius: 50%; object-fit: cover; }
+.inline-controls { display: flex; gap: 10px; align-items: center; justify-content: center; }
+.inline-controls select, .inline-controls button { width: auto; min-width: 160px; }
+.score-list { list-style: none; margin: 0; padding: 0; text-align: left; }
